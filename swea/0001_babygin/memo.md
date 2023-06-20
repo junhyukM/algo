@@ -6,7 +6,7 @@
 ### 3. baby gin 을 만족하는 조건을 is_babygin 의 count를 이용
 ### > 10개의 0으로 채워진 counter 리스트를 생성 -> 0~9 숫자의 count를 채워 넣음 -> idx = 0으로 해놓고 while 반복문 작성 -> idx < len(counter) 가 참인 동안 반복 -> 같은 수가 세번 나왔다면 count가 3 이상이라는 조건문으로 확인, is_babygin count중가, counter[idx] 수정 -> 연속된 세 idx, idx+1, idx+2 위치가 True(값이 있음)를 반환하면 run의 조건을 만족, is_babygin, counter[idx] 수정 -> is_babygin 가 2인지 확인 후 True / False 반환
 
-
+---
 ### 같은 내용 연습에 사용 가능하도록 주석만 작성, 복사하여 사용
 ```python
     # 10개의 0을 집어 넣는 리스트컴프리헨션
