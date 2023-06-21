@@ -30,7 +30,7 @@ for test in range(10):
             max_sum = arr[i][i]
     # 오른쪽 위 -> 왼쪽 아래 대각선의 합
     for i in range(100):
-        if max_sum < arr[-i-1][i]:
-            max_sum = arr[-i-1][i]       
+        if max_sum < arr[i][99-i]:
+            max_sum = arr[i][99-i]       
  
     print(f'#{tc} {max_sum}')
